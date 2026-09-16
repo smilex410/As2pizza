@@ -366,7 +366,7 @@ ul,ol,dl,dd{ margin:0; padding:0; list-style:none; }
   color:var(--txt-on-dark);
   border-radius:var(--r); box-shadow:var(--sh-3); text-align:center;
 }
-.stat b{ display:block; font-family:var(--ff-display); font-size:30px; color:var(--gold); line-height:1; margin-bottom:6px; }
+.stat b{ display:block; font-family:var(--ff-display); font-size:38px; color:var(--gold); line-height:1; margin-bottom:6px; }
 .stat span{ font-size:12.5px; line-height:1.4; color:var(--txt-on-dark-mut); }
 @media (max-width:560px){ .stat{ right:14px; bottom:14px; padding:14px 18px; } }
 
