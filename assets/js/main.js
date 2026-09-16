@@ -10,12 +10,12 @@
       { n: 'Margarita',          d: 'Sauce tomate, mozzarella',                                                     s: 9.00,  l: 14.00 },
       { n: 'Jambon-Fromage',     d: 'Sauce tomate, mozzarella, jambon',                                             s: 9.50,  l: 14.50 },
       { n: 'Royale',             d: 'Sauce tomate, mozzarella, jambon, champignons',                                s: 10.00, l: 15.00 },
-      { n: 'Calzone',            d: 'Chausson — sauce tomate, mozzarella, jambon, champignons, œuf',                s: 10.50, l: 15.50 },
+      { n: 'Calzone (chausson)',  d: 'Sauce tomate, mozzarella, jambon, champignons, œuf',                          s: 10.50, l: 15.50 },
       { n: 'Soufflée',           d: 'Sauce tomate, mozzarella, roquefort, gorgonzola, champignons',                 s: 10.50, l: 15.50 },
       { n: 'Orientale',          d: 'Sauce tomate, mozzarella, merguez, poivrons',                                  s: 11.00, l: 16.00 },
       { n: 'Napolitaine',        d: 'Sauce tomate, mozzarella, anchois, câpres',                                    s: 11.00, l: 16.00 },
       { n: 'Pizza Steak',        d: 'Sauce tomate, mozzarella, steak haché, roquefort, filet de crème fraîche',     s: 11.00, l: 16.00 },
-      { n: 'Fruits de Mer',      d: 'Sauce tomate, mozzarella, fruits de mer, persillade',                          s: 11.00, l: 16.00 },
+      { n: 'Fruit de Mer',       d: 'Sauce tomate, mozzarella, fruits de mer, persillade',                          s: 11.00, l: 16.00 },
       { n: 'Fromaggio',          d: 'Sauce tomate, mozzarella, roquefort, gorgonzola',                              s: 11.00, l: 16.00 },
       { n: 'Chavignol',          d: 'Sauce tomate, mozzarella, chèvre, miel',                                       s: 11.00, l: 16.00 },
       { n: 'Primeure',           d: 'Sauce tomate, mozzarella, champignons, poivrons, aubergine, persillade',       s: 11.00, l: 16.00 },
@@ -45,13 +45,13 @@
     ],
     autre: [
       { grp: 'Dessert' },
-      { n: 'Tiramisu',           d: 'Fait maison, cacao amer',                                                      p: 3.00 },
-      { grp: 'Boissons' },
-      { n: 'Canette 33 cl',      d: 'Sodas et boissons fraîches',                                                   p: 1.50 },
+      { n: 'Tiramisu',           d: '',                                                                             p: 3.00 },
+      { grp: 'Boisson' },
+      { n: 'Canette 33 cl',      d: '',                                                                             p: 1.50 },
       { n: 'Eau 50 cl',          d: '',                                                                             p: 1.50 },
-      { n: 'Bouteille 1,5 L',    d: 'À partager',                                                                   p: 3.00 },
-      { grp: 'Pour les grandes tablées' },
-      { n: 'Plaque à pizza',     d: '60 cm × 40 cm — la solution des anniversaires et des soirées foot', p: 30.00, wide: true }
+      { n: 'Bouteille 1,5 L',    d: '',                                                                             p: 3.00 },
+      { grp: 'Plaque à pizza' },
+      { n: '60 cm × 40 cm',      d: '',                                                                             p: 30.00 }
     ]
   };
 
