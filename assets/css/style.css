@@ -98,14 +98,6 @@ ul,ol,dl,dd{ margin:0; padding:0; list-style:none; }
 .btn--call{ --bg:var(--green); box-shadow:0 6px 18px rgba(27,158,86,.28); }
 .btn--call:hover{ --bg:var(--green-dk); }
 
-/* ── bandeau promo ───────────────────────────────────── */
-.topbar{ background:var(--green); color:#fff; font-size:14.5px; }
-.topbar__in{ display:flex; align-items:center; justify-content:center; gap:10px; min-height:44px; padding-block:8px; text-align:center; }
-.topbar p{ font-weight:500; }
-.topbar strong{ font-weight:700; }
-.topbar__sep{ opacity:.6; margin-inline:4px; }
-@media (max-width:560px){ .topbar__sep, .topbar span:last-child{ display:none; } }
-
 /* ── header ──────────────────────────────────────────── */
 .hdr{
   position:sticky; top:0; z-index:100;
